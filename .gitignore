@@ -1,4 +1,8 @@
 *.class
 *.logs
 *.jar
+*.dat
+*.zip
+*.tar
+*.gz
 .idea

@@ -42,7 +42,6 @@ public class Main {
 							byte[] buffer = new byte[fis.available()];
 							fis.read(buffer);
 							zout.write(buffer);
-							savefile.delete();
 						} catch (Exception e) {
 							System.out.println(e.getMessage());
 						}
@@ -53,6 +52,22 @@ public class Main {
 
 			} catch (Exception e) {
 				System.out.println(e.getMessage());
+			}
+		}
+	}
+
+	public static void deleteSaves() {
+		File savedir = new File(savegames);
+
+		if (savedir.isDirectory()) {
+			for (File savefile : savedir.listFiles()) {
+				if (!savefile.isDirectory() && !(savefile.getName().equals(zipsavesfile))) {
+					try {
+						savefile.delete();
+					} catch (Exception e) {
+						System.out.println(e.getMessage());
+					}
+				}
 			}
 		}
 	}
@@ -96,6 +111,7 @@ public class Main {
 		saveGame(95, 11, 3, 255.33, "save2.dat");
 		saveGame(96, 12, 4, 256.34, "save3.dat");
 		packSaves();
+		deleteSaves();
 		unpackSaves();
 		loadGame("save1.dat");
 	}

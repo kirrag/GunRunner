@@ -10,3 +10,15 @@
 2023-02-12 12:42:12.803 Каталог "/home/garrik/Games/GunRunner/res/vectors" создан
 2023-02-12 12:42:12.803 Каталог "/home/garrik/Games/GunRunner/res/icons" создан
 2023-02-12 12:42:12.803 Файл "/home/garrik/Games/GunRunner/temp/temp.txt" создан
+2023-02-12 23:55:35.359 Каталог "/home/garrik/Games/GunRunner/src" уже существует
+2023-02-12 23:55:35.426 Каталог "/home/garrik/Games/GunRunner/res" создан
+2023-02-12 23:55:35.427 Каталог "/home/garrik/Games/GunRunner/savegames" создан
+2023-02-12 23:55:35.427 Каталог "/home/garrik/Games/GunRunner/temp" уже существует
+2023-02-12 23:55:35.428 Каталог "/home/garrik/Games/GunRunner/src/main" уже существует
+2023-02-12 23:55:35.429 Каталог "/home/garrik/Games/GunRunner/src/test" создан
+2023-02-12 23:55:35.430 Файл "/home/garrik/Games/GunRunner/src/main/Main.java" файл уже существует
+2023-02-12 23:55:35.430 Файл "/home/garrik/Games/GunRunner/src/main/Utils.java" файл уже существует
+2023-02-12 23:55:35.430 Каталог "/home/garrik/Games/GunRunner/res/drawables" создан
+2023-02-12 23:55:35.431 Каталог "/home/garrik/Games/GunRunner/res/vectors" создан
+2023-02-12 23:55:35.431 Каталог "/home/garrik/Games/GunRunner/res/icons" создан
+2023-02-12 23:55:35.431 Файл "/home/garrik/Games/GunRunner/temp/temp.txt" файл уже существует
